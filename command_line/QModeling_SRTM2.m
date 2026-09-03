@@ -167,9 +167,9 @@ function results = QModeling_SRTM2(Ct,Cr,times,k2_p,k2a_min,k2a_max,basisF,resam
 
         %Save the images
         images(1,:)=BPnd;
-        images(2,:)=R1;
+        images(2,:)=k2;
         images(3,:)=k2a;
-        images(4,:)=k2;
+        images(4,:)=R1;
 
         results=images;
     end
