@@ -136,8 +136,8 @@ function results = QModeling_SRTM(Ct,Cr,times,k2a_min,k2a_max,num_BF,resampling,
 
         images(1,:)=BPnd;    
         images(2,:)=k2;
-        images(3,:)=R1;
-        images(4,:)=k2a;
+        images(3,:)=k2a;
+        images(4,:)=R1;
         
         results=images;
 
